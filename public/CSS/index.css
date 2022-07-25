@@ -1,0 +1,267 @@
+*{
+    font-family:'Bebas Neue',cursive;
+    font: size 40px;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: black;
+}
+.navbar{
+background-color: azure;
+color: red;   
+}    
+.index{
+color: red;
+font-size:50px;
+}
+.index:hover{
+color: black;    
+}
+
+.active{
+color: red;  
+font-size: 25px;
+}
+.active:hover{
+color: black;    
+}
+.active:active{
+    color: black;
+}
+
+.navbar-toggler{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.ul:hover{
+color: red;    
+}
+.me-2{
+border-radius: 7%;
+}
+.btn{
+background-color: black;
+color: azure;
+border-radius: 10%;
+border-color: red;
+border-width:3.5px;
+}
+.btn:hover{
+border-color: black;
+background-color: red;
+color:azure    
+}
+.h1{
+color: red;
+margin-top: 1%;
+font-size:  30px;
+text-align: center;    
+}
+.h2{
+    color: red;
+    margin-top: 1%;
+    font-size:  30px;
+    text-align: center;     
+}
+.Paragraph{
+color: azure;
+height:50%;
+width: 50%;
+font-size: large;
+margin: 0.5em;
+text-align: center;
+}
+.Paragraph1{
+    color: azure;
+    height:50%;
+    width: 50%;
+    font-size: large;
+    margin: 0.5em;
+    text-align: center;
+    }
+.main{
+display: flex;
+width: 100%;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+height: fit-content;
+}
+.main1{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 0,5em;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    }
+.p1{
+    color: azure;
+    height:50%;
+    width: 50%;
+    font-size: large;
+    margin: 0.5em;
+    text-align: center;           
+}
+.box{
+width: 100%;
+display:inline-flex;
+height: 60%;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;    
+}
+.producto{
+height: 250px;
+width: 300px;
+margin: 10px;
+border: solid;
+border-color: azure;
+border-radius: 12%;
+border-width: 0.25em;    
+}
+.description{
+    margin-top: 1%;
+    font-size:  30px;
+    text-align: center;   
+}
+.name{
+text-decoration: none;
+color: red;
+}
+.wrapper{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.name:hover{
+    color: grey;
+    text-decoration: none;
+    
+}
+.emailform{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 80%;
+    width: 100%;
+    font-size: large;
+    justify-items: center;
+    background-color: #878b91;
+    justify-content: center;
+}
+.footer{
+    position:relative;
+
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#30302f;  
+    color: azure;  
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+    height:fit-content ;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.ubicacion{
+    margin: 5px;
+    height: fit-content;
+    width:fit-content;
+    display: inline-block;
+    position: relative; left: -20%;
+    flex-wrap: wrap;  
+    border-radius:10%;
+    border-width: 3.5em;
+    border-color: red;
+}
+.footerTitle{
+color: azure;
+display: flex;
+flex-wrap: wrap;
+width: fit-content;
+position: relative; left: -5%;   
+justify-content: left;
+}
+.footerColumn{
+display:flex;
+flex-direction: row;
+}
+.footerLink{
+    color: red;
+    text-decoration: none;
+    padding: 2%;
+    background-color: black;
+    border-radius: 25%;
+    width: 25px;
+    height:25px;
+    margin-left: 5px;
+    margin-right: 5px;  
+    text-align: center;
+    position: relative;left: -65%;  
+}
+.footerLink:hover{
+    color: black;    
+    opacity: 0.7;
+    background-color: red;
+    }
+.copyrights{
+color: azure; 
+display: flex;
+margin: 1em;
+flex-direction: column; 
+flex-wrap: nowrap;   
+}
+.formEmail{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.PHemail{
+width:fit-content ;
+margin: 5px;
+font-size: larger;   
+}
+.email{
+width:50%;
+height:auto;
+border-radius: 10%;
+border-color: black;
+margin-left: 1em;   
+border-width: 3.5px;
+}
+.submit{
+    background-color: black;
+    color: azure;
+    border-radius: 10%;
+    border-color: red;
+    width:50%;
+    border-width:3.5px;
+    margin-left:1em;
+}
+.submit:hover{
+    border-color: black;
+background-color: red;
+color:azure  
+}
+.span{
+color: black;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 5px;
+}
