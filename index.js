@@ -14,13 +14,14 @@ const { error } = require('console');
 const req = require('express/lib/request');
 const { domainToASCII } = require('url');
 //conectar app a DB
-const conexion = mysql.createConnection({
+/*const conexion = mysql.createConnection({
     host:process.env.HOST,
     user:process.env.USER,
     password:process.env.PASSWORD,
     port:process.env.PORTDB,
     database:process.env.DATABASE
 });
+*/
 //conecta DB
 /*
 const conectar = (conexion.connect((error)=>{
@@ -82,10 +83,11 @@ if (nombre =="" || producto =="" ||descripcion ==""){
         descripcion_consulta: descripcion
     }
     let sql ="INSERT INTO SOLICITUD SET ?";
-    let query = conexion.query(sql,data,(err,results)=>{
+    /*let query = conexion.query(sql,data,(err,results)=>{
        if (err) throw err;
        res.render("index");
     });
+    */
 }
 });
 
